@@ -1,3 +1,4 @@
+import Featured from "./components/Featured";
 import TopNav from "./components/TopNav";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <>
       <div>
         <TopNav />
+        <Featured />
       </div>
     </>
   );
