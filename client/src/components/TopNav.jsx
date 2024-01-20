@@ -8,7 +8,7 @@ import { IoMdHelp } from "react-icons/io";
 
 const TopNav = () => {
   const [sideNav, setSideNav] = useState(false);
-  console.log(sideNav);
+
   return (
     <div className="max-w-[1520px] flex justify-between p-4  mx-auto items-center ">
       <div className="flex items-center">
@@ -37,7 +37,7 @@ const TopNav = () => {
           placeholder="search meals"
         />
       </div>
-      <button className="bg-orange-700 text-white hidden md:flex items-center py-2 rounded-full">
+      <button className="bg-orange-700 border-none text-white hidden md:flex items-center py-2 rounded-full">
         <BsFillCartFill />
         Cart
       </button>

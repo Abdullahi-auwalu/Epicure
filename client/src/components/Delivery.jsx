@@ -1,16 +1,16 @@
 const Delivery = () => {
   return (
-    <div className="w-full bg-white py-16 px-4">
+    <div className="m-w-[1520px] bg-white py-16 px-4">
       <h1 className="text-orange-500 font-bold text-2xl text-center">
         Quick Delivery App
       </h1>
-      <div className="w-[1240px] mx-auto grid sm:grid-cols-2">
+      <div className=" mx-auto grid sm:grid-cols-1 lg:grid-cols-2">
         <img
-          className="w-[550px] my-4 "
+          className="w-[550px] my-4 md:ml-[150px] lg:-ml-[20px]"
           src="https://res.cloudinary.com/ehizeex-shop/image/upload/v1672676822/NetflixApp/FC_two_phones.6ec9a842f905769677f9_m91off.webp"
           alt=""
         />
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center px-2">
           <p className="text-[#00df9a] font-bold">Get The App</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             Limitless Convenience on-demand
